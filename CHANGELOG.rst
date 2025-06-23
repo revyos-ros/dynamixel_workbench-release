@@ -2,11 +2,23 @@
 Changelog for package dynamixel_workbench
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.5 (2025-06-04)
+------------------
+* Remove unused rclcpp dependency
+* Remove ament_target_dependencies (deprecated in ROS 2 kilted)
+* Contributors: ijnek
+
+2.2.4 (2025-03-14)
+------------------
+* Fixed the issue where the Workbench example was not building on SBC by adding the ARM option.
+* Added the CI for ROS 2 rolling, jazzy and Humble.
+* Contributors: Wonho Yun
+
 2.2.3 (2022-10-06)
 ------------------
 * ROS2 release (Foxy, Galactic, Humble)
 * fix variable length warning (#364)
-* Contributoers: Kenji Brameld, Will Son
+* Contributors: Kenji Brameld, Will Son
 
 2.2.2 (2022-01-25)
 ------------------
@@ -21,19 +33,19 @@ Changelog for package dynamixel_workbench
 2.1.0 (2019-06-04)
 ------------------
 * Removed single_manager and single_manager_gui
-* Added XH540, PRO (A Firmware), RH_P12_RN, RH_P12_RN (A Firmware) 
+* Added XH540, PRO (A Firmware), RH_P12_RN, RH_P12_RN (A Firmware)
 * Contributors: Ryan Shim
 
 2.0.0 (2019-01-04)
 ------------------
-* added YAML configuration for Dynamixel 
+* added YAML configuration for Dynamixel
 * supported position control mode, current based position control mode through Joint Trajectory Message
 * supported velocity control mode through Twist Message
 * reduced memory usage(Contribute by @KurtE)
 * updated API for sync, bulk instruction
 * updated control period (default is 10ms)
-* supported Linux, macos 
-* supported Pro+ 
+* supported Linux, macos
+* supported Pro+
 * supported DynamixelSDK(after v.3.6.2)
 * supported OpenManipulator
 * Contributors: Darby Lim, KurtE, Pyo
@@ -67,7 +79,7 @@ Changelog for package dynamixel_workbench
 * changed max_dxl_deries_num
 * changed compile options for qt5
 * deleted unused code
-* merged pull request `#152 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/152>`_ `#151 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/151>`_ `#149 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/149>`_ `#132 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/132>`_ 
+* merged pull request `#152 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/152>`_ `#151 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/151>`_ `#149 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/149>`_ `#132 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/132>`_
 * Contributors: Darby Lim, Pyo
 
 0.2.4 (2018-03-20)
